@@ -1,0 +1,24 @@
+<form action ="/check" method="get">
+  <label for="user_id"> User Name: </label>
+  <input type="text" id="user_id" name="user_name" minlength="6" required/>
+  </br>
+  <label for="password_id"> Password: </label>
+  <input type="text" id="password_id" name="password" minlength="6" required/>
+  </br>
+  <input type="submit" value="Submit"/>
+</br>
+
+
+  <%=flash[:alert]%>
+</br>
+  <%=flash[:notice]%>
+</br>
+  <%=flash[:yellow]%>
+</br>
+  <%=flash[:bananas]%>
+</br>
+  <%=flash[:chicken]%>
+</br>
+  <%=flash[:duck]%>
+</br>
+</form>
